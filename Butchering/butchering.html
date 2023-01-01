@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+	<link rel="stylesheet" href="css/butchering.css">
+	<title>Butchering - Pete Seymour</title>
+</head>
+<body>
+<div class="authorAndTitleBox">
+	<div class="pic-container"><img src="images/PeteFace.jpg" alt="Pete" id="picture">
+	</div>
+	<div class="txtTitle"><p class="txtT">kʷykʷytas: t̓aʕpám t sƛ̓aʔcínəm</p>
+	</div>
+</div>
+
+	
+<div class="navigation">
+	<button id="prev" class="action-btn">
+		<i class="fas fa-backward"></i>
+	</button>
+	<button id="play" class="action-btn">
+		<i class="fas fa-play"></i>
+	</button>
+	<button id="next" class="action-btn">
+		 <i class="fas fa-forward"></i>
+	</button>
+</div>
+
+<div class="utterance-container" id="utterance-container">
+	<div class="subtitle">
+		<h4 class="subtitle" id="subtitle"></h4>
+	</div>
+	<div class="analysis-container">
+		<div class="analysis">
+		<h4 class="analysis"  id="analysis"></h4>
+	</div>
+</div>
+
+<audio src="audio/utt01.mp3" id="audio"></audio>
+<div class="translation-container">
+		<h4 class="translation" id="translation"></h4>
+</div>
+
+<div class="analysis-navigation">
+	<button id = "open" onclick="displayTranslation()">Display translation</button>
+
+</div>
+<p id="note">This is work in progress. The idea is to study the text, utterance by utterance; pausing the utterance (and the displayed transcription and segmentation) and getting a translation; then continuing the study, moving between the utterances (previous and next) as wished. Help me with the design of the page, if you want to. Thanks.</p>
+<script src="script/butchering.js"></script>
+</body>
+</html>

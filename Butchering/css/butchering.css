@@ -1,0 +1,85 @@
+body{
+	background-image: url("../images/marb18-30.jpg");
+	height: 100vh;
+	margin: 20px;
+	}
+.authorAndTitleBox {
+	display: flex;
+	background-color: lightblue;
+	margin: 20px 5px;
+	padding: 10;
+}
+.pic-container{
+	border-radius: 50%;
+}
+#picture {
+	border-radius: 50%;
+}
+.txtTitle {
+	text-indent: 40px;
+	padding-top: 13px;
+	font-size: 26px;
+	font-family: "Charis SIL", "Times New Roman", serif;
+}
+
+#h4 {
+	text-indent: 30px;
+	font-color: white;
+	font-size: 40px;
+	padding: 12px;
+}
+
+.subtitle {
+	font-size: 26px;
+	text-align: center;
+	margin: 20px 5px;
+	font-family: "Charis SIL", "Times New Roman", serif;
+}
+
+.navigation {
+	
+	text-align: center;
+	margin: 20px 5px;
+	font-family: "Charis SIL", "Times New Roman", serif;
+}
+
+.analysis-navigation {
+	font-size: 26px;
+	text-align: center;
+	margin: 20px 5px;
+	font-family: "Charis SIL", "Times New Roman", serif;
+}
+
+.analysis-container {
+	font-size: 26px;
+	text-align: center;
+	margin: 20px 5px;
+	font-family: "Charis SIL", "Times New Roman", serif;
+}
+
+
+.analysis {
+	font-size: 26px;
+	text-align: center;
+	margin: 20px 5px;
+	font-family: "Charis SIL", "Times New Roman", serif;
+}
+
+.translation-container {
+	font-size: 26px;
+	text-align: center;
+	margin: 20px 5px;
+	font-family: "Charis SIL", "Times New Roman", serif;
+}
+.action-btn {
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+}
+#button {
+	border: 0;
+  font-size: 10px;
+  cursor: pointer;
+}
